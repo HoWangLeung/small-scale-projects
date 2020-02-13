@@ -1,0 +1,258 @@
+
+/*-----------------------------------/
+*===========HEADER=================
+/-----------------------------------*/
+header{
+    background-image: url(./img/header.jpg);
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+/*-----------------------------------/
+*===========Scroll=================
+/-----------------------------------*/
+
+.solid{
+    background-color: rgb(255, 255, 255) !important;
+    border-bottom: solid 1px rgb(255, 250, 250) !important;
+    opacity: 1 !important;
+    transform: 0.5s !important;
+}
+
+.navbar-brandActive {
+    color: #000000 !important;
+    font-weight: 700;
+    font-size: 120%;
+}
+.nav-linkActive{
+    color: #000;
+}
+
+
+
+
+
+/*-----------------------------------/
+*===========FONT=================
+/-----------------------------------*/
+h1{
+    color: #fff;
+    font-size: 300%;
+    font-weight: 700;
+}
+
+h1:after{
+
+    display: block;
+    height: 3px;
+    background-color: #ff0000;
+    content: " ";
+    width: 60px;
+    margin: 30px auto;
+}
+
+h2{
+    color: #fff;
+    font-size: 250%;
+    margin-top: 100px;
+}
+
+.h2-black{
+    color: #000;
+    text-align: center;
+}
+
+.h2-black:after{
+    display: block;
+    height: 3px;
+    background-color: #ff0000;
+    content: " ";
+    width: 60px;
+    margin: 30px auto;
+}
+
+h2:after{
+    
+    display: block;
+    height: 3px;
+    background-color: #ffffff;
+    content: " ";
+    width: 60px;
+    margin: 30px auto;
+}
+
+h5,
+.small-text{
+    color: rgb(185, 184, 184);
+    margin-bottom: 30px;
+}
+
+.hero-headerText-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.navbar{
+    border-bottom: 1px solid rgb(255, 255, 255) ;
+
+}
+
+.navbar-brand{
+
+    color: #e7e7e7 !important;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: #e7e7e7 !important;
+}
+
+.btn-primary{
+    border-radius: 20px;
+    padding: 10px 10px;
+    background-color: rgb(228, 91, 37);
+}
+
+/*-----------------------------------/
+*===========2nd Page-Red page===========
+/-----------------------------------*/
+
+.red-page{
+    background-color: #f05f40;
+    opacity: 0.99;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-light{
+    border-radius: 22px;
+}
+
+.four4-pics{
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;     
+}
+
+.black-IMG{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+
+
+.four-icons{
+    color: #ff0000;
+    font-size: 300%;
+    margin-bottom: 15px;
+}
+
+.four-icons-outerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icons-individual-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.four4-pics-outer-box{
+    display: flex;
+
+}
+
+
+
+
+
+
+.black-background-outer-box{
+    background-color: rgb(41, 41, 41);
+    height: 250px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-primary-amazing{
+    background-color: #fff;
+    border-radius: 22px;
+    padding: 10px 20px;
+    font-weight: 500;
+    
+}
+
+.contact{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.contact-p{
+    width: 700px;
+}
+
+
+.icon-box-contact{
+    display:flex;
+    justify-content: space-between;
+    width: 380px;
+    margin-bottom: 50px;
+
+}
+
+
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+
+  .img-fluid:hover #overlay {
+      opacity: 1;
+
+  }
+
+  .active {
+      color: rgb(21, 255, 126) !important
+  }

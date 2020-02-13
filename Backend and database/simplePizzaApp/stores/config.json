@@ -1,0 +1,16 @@
+{
+    "production": {
+        "port": 8080,
+        "orders": "./stores/orders.json",
+        "users": "./stores/users.json"
+    },
+    "development": {
+        "port": 8080,
+        "orders": "./stores/orders.json",
+        "users": "./stores/users.json"
+    },
+    "test": {
+        "port": 4000,
+        "orders": "../tests/tests/test.json"
+    }
+}

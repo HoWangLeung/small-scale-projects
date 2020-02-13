@@ -1,0 +1,34 @@
+body{
+    background-color: skyblue !important;
+}
+
+.h1{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    margin-bottom: 150px;
+}
+
+p{
+    color: #fff;
+    font-weight: 300;
+    font-size: 150%;
+}
+
+.form-group{
+    color: #fff;
+    font-weight: 300;
+    font-size: 150%;
+    
+}
+
+#notes-list{
+    color: #fff;
+    font-weight: 300;
+    font-size: 150%;
+}
+
+
+
+
+
+/*=========test==========*/
