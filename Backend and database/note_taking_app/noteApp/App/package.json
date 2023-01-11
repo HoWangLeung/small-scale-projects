@@ -17,7 +17,7 @@
     "express-basic-auth": "^1.2.0",
     "express-handlebars": "^3.1.0",
     "jsonfile": "^5.0.0",
-    "knex": "^0.20.7",
+    "knex": "^2.4.0",
     "pg": "^7.17.0"
   },
   "devDependencies": {
